@@ -1,0 +1,50 @@
+
+.titulo1 {
+    font-family:verdana;
+    background-color: gold;
+    border-radius: 30px;
+    margin-inline-start: 790px;
+    margin-inline-end: 790px;
+}
+
+
+/* CONTAINER ES EL BOTON CON PARRAFO*/
+.container p a {
+    border-radius: 0;
+   background-color:none;
+   text-align: left;
+}
+
+/* ENLACES a DEL BOTON CON PARRAFO*/
+a {
+    text-decoration-line:none;
+font-family: arial;
+}
+
+
+/* AUDIO */
+audio {
+    border-radius: 30px;
+    
+}
+
+/* IMAGENES */
+.fotoinicio {
+border-radius: 400px;
+}
+
+.gatoryan {
+    border-radius: 400px; 
+}
+
+.amigos1 {
+    border-radius: 400px;
+    width: 350px;
+}
+
+
+/* ENLACES */
+
+
+
+
