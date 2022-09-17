@@ -1,0 +1,73 @@
+/* FONDO DEL CUERPO COMPLETO */
+*{background-color:aquamarine}
+
+
+/* FUENTE DE LETRA PARA TODO */
+* {
+    font-family:verdana;
+}
+
+@font-face  {
+    font-family: "verdana";
+   src: url("../fuentes/fuente4.TTF");
+}
+
+/* MEDIDA DE TODO EL CUERPO */
+body {
+    min-height: calc(100vh - 100px - 300px);
+}
+/* CURSOR 1 */
+*{
+    cursor: url(../imagenes/flecha.png), auto;
+}
+.menu {
+    cursor: url(../imagenes/garra.png), auto;  
+}
+a{
+    cursor: url(../imagenes/garra.png), auto;  
+}
+audio{
+    cursor: url(../imagenes/flecha.png), auto;
+}
+audio{
+    cursor: url(../imagenes/garra.png), auto;
+}
+
+
+/* BOTONES de menu*/
+
+.menu{
+    
+    width: 400px;
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 24px;
+}
+.menu:hover{
+    background-color: rgb(247, 224, 224);
+    color: rgb(140, 138, 150);
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    border-radius: 30px;
+}
+footer p{
+    font-size: 20px;
+    background-color:gold;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* ENLACE a DEL FOOTER */
+.tatiana{
+    background-color: gold;
+    font-family: "verdana";
+}
+
+
