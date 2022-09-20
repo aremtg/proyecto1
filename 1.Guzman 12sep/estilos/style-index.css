@@ -5,45 +5,43 @@
     border-radius: 30px;
     margin-inline-start: 790px;
     margin-inline-end: 790px;
+    text-align: center;
 }
 
-
-/* CONTAINER ES EL BOTON CON PARRAFO*/
-.container p a {
-    border-radius: 0;
-   background-color:none;
-   text-align: left;
+.titulo1:hover{
+    transform: scale(1.1);
 }
-
-/* ENLACES a DEL BOTON CON PARRAFO*/
-a {
-    text-decoration-line:none;
-font-family: arial;
-}
-
-
-/* AUDIO */
-audio {
-    border-radius: 30px;
-    
-}
-
 /* IMAGENES */
 .fotoinicio {
 border-radius: 400px;
-}
-
-.gatoryan {
-    border-radius: 400px; 
 }
 
 .amigos1 {
     border-radius: 400px;
     width: 350px;
 }
-
-
-/* ENLACES */
+.gato {
+    border-radius: 400px;
+    width: 350px;
+}
+/* CONTAINER ES EL BOTON CON PARRAFO info de ryan*/
+.container { 
+    background-color: white;
+    border-radius: 30px;
+}
+.container p{
+     text-align: left;   
+     font-size: 24px;
+}
+.container:hover{
+ background-color: gold;
+ transform: scale(1.1);
+}
+/* ENLACES de CONTAINER*/
+a {
+    text-decoration: none;
+font-family: verdana;
+}
 
 
 

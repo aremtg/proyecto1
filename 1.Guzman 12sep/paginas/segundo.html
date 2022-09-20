@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="icon" href="/1.Guzman 12sep/imagenes/favicon.png" >
-    <link rel="stylesheet" href="/1.Guzman 12sep/estilos/style-basico.css">
-    <link rel="stylesheet" href="/1.Guzman 12sep/estilos/style-segundo.css">
-
+    <!-- icono que aparece en la parte superior de la pestaña -->
+    <link rel="icon" href="../imagenes/favicon.png" >
+    <!-- nombre que acompaña al icono -->
     <title>segundo</title>
+    <!-- links que conectan las hojas de estilo-->
+    <link rel="stylesheet" href="/1.Guzman 12sep/estilos/style-segundo.css">
+    <link rel="stylesheet" href="/1.Guzman 12sep/estilos/style-basico.css">
+
 <head>
     
     <p>-&#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677;
@@ -14,26 +17,25 @@
                 &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677;
                 &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677; &#128677;-
             </p>
-            <center>
+            <header class="header">
+                <center>   
+                   <button onclick="document.location='/1.Guzman 12sep/index.html'" class="menu">
+                        INICIO
+                   </button>
+       
+                   <button class="menu" onclick="document.location='segundo.html'">
+                        2
+                   </button>
+       
+                   <button class="menu" onclick="document.location='tercer.html'">
+                        3
+                   </button>
+               </center>
+            </header>
 
-                <!-- EN LA SEGUDA Y TERCER PAGINA NO ME DEJA DEVOLVERME A "INICIO" -->
-                <button onlick="document.location='index.html'" class="menu">
-                    INICIO
-                    </button>
-        
-                    <button class="menu" onclick="document.location='segundo.html'">
-                    PAGINA DOS
-                    </button>
-        
-        
-                    <button class="menu" onclick="document.location='tercer.html'">
-                    PAGINA TRES
-                    </button>
-            </center>
-            
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <audio  class="audio" controls> 
+                <source  src="audios/intro.mp3"  type="audio/mp3">
+    </audio>
     
 </head>
 <body>
@@ -62,22 +64,18 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
 
 
 <center>
-<h2>DA CLICK A CADA OBJETO EN LA IMAGEN</h2>
-<img class="fotomapa" src="../imagenes/fotomapa.jpg" alt="ryan en una cafeteria" usemap="#imgmapa">
-
-<map name="imgmapa">
-    <area shape="rect" coords="33,17,90,300" alt="periodico" href="tercer.html">
-</map>
+<h2>gif</h2>
+<img class="contseg" src="../imagenes/gafas.gif" alt="ryan en una cafeteria">
 
 </center>
 
 
 
-    <footer> 
-        <p>RYAN ES TU AMIGO <br> Ver instagram del creador de la pagina
-            <a id="tatiana" href="" target="_blank" rel="noopener noreferrer">tatiana</a>
-        </p>
- </footer>
+<footer> 
+    <p>RYAN ES TU AMIGO <br>contactarse con el creador de la pagina
+        <a class="tatiana" href="redes.html" target="_blank" rel="noopener noreferrer">tatiana</a>
+    </p>
+</footer>
  
 </body>
 </html>

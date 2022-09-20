@@ -1,0 +1,17 @@
+.logos img {
+    width: 318px;
+    border-radius: 66px;
+    cursor: url(../imagenes/garra.png), auto;
+}
+
+.logos{
+    background-color: white;
+    border-radius: 96px;
+    border-color:rgb(29, 223, 223)
+
+}
+
+.logos img:hover{
+
+    transform: scale(1.1); filter: drop-shadow(2px 3px 3px rgb(97, 204, 253));
+}
