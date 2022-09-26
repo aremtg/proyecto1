@@ -1,14 +1,17 @@
 .logos img {
-    width: 318px;
-    border-radius: 66px;
+    width: 218px;
+    border-radius: 50px;
     cursor: url(../imagenes/garra.png), auto;
+    padding: 1cm;
 }
 
 .logos{
     background-color: white;
-    border-radius: 96px;
-    border-color:rgb(29, 223, 223)
-
+    border-radius: 55px;
+    border-color: transparent;
+    margin-top: 2cm;
+   
+    
 }
 
 .logos img:hover{

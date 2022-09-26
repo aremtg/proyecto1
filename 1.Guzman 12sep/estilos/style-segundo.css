@@ -1,3 +1,16 @@
+.titulo1 {
+    margin-top: 1cm;
+    background-color: gold;
+    border-radius: 30px;
+    margin-inline-start: 790px;
+    margin-inline-end: 790px;
+    text-align: center;
+}
+
+.titulo1:hover{
+    transform: scale(1.1);
+}
+
 .parrafo{
     text-align:center;
 }
