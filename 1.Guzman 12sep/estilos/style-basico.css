@@ -1,10 +1,10 @@
-/* FONDO DEL CUERPO COMPLETO */
-*{background-color:none}
 
 
-/* FUENTE DE LETRA PARA TODO */
+/* PARA TODO EL CUERPO */
 * {
     font-family:verdana;
+    cursor: url(../imagenes/flecha.png), auto;
+    background-color:none;
 }
 
 @font-face  {
@@ -12,15 +12,6 @@
    src: url("../fuentes/fuente4.TTF");
 }
 
-/* CURSOR 1 */
-*{
-    cursor: url(../imagenes/flecha.png), auto;
-}
-
-/* MEDIDA DE TODO EL CUERPO */
-body{
-    min-height: calc(100vh - 100px - 300px);
-}
 
 /* AUDIO */
 audio {
@@ -39,8 +30,7 @@ audio:hover {
 .header{ 
     top: 0%;
     width: 100%;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 0px 0px 50px 50px;
     background-color: gold;
     position:fixed;
 }
@@ -58,11 +48,11 @@ audio:hover {
 }
 
 
-/* FOOTER */
+/* FOOTER o pie de pagina*/
 footer{
-    bottom: 0%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    position: relative;
+    top: 16rem;
+    border-radius: 50px 50px 0px 0px;
     width: 100%;
     padding: 5px;
     background-color: gold;
@@ -72,6 +62,7 @@ footer p{
     background-color:gold;
     padding: 50px;
     text-align: center;
+   
 }
 
 /* ENLACE FOOTER */
