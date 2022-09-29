@@ -4,15 +4,40 @@
     border-radius: 900px;
 }
 .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
     margin-top: 4cm;
     font-size:20px;
     margin-left:25%;
     background-color: gold;
     border-radius: 50px;
-    width: max-content;
+    margin-bottom: 25px;
+    
 }
-.intro img{
 
+.intro .h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+
+.Ryan-img {
+    display: flex;
+    justify-content: center;
+}
+
+.h2-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
 }
 
 /* DIV DONDE ESTAN LAS CAJITAS PARA LOS PELUCHES GRUPO1 */
