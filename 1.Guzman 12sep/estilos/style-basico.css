@@ -4,7 +4,7 @@
 * {
     font-family:verdana;
     cursor: url(../imagenes/flecha.png), auto;
-    background-color:none;
+    background: none;
 }
 
 @font-face  {
@@ -20,8 +20,7 @@ audio {
     border-radius: 30px;
 }
 audio:hover {
-    
-    transform: scale(1.1);filter: drop-shadow(2px 3px 3px rgb(245, 208, 0));
+    transform: scale(1.1);
 }
 
 
@@ -31,7 +30,7 @@ audio:hover {
     top: 0%;
     width: 100%;
     border-radius: 0px 0px 50px 50px;
-    background-color: gold;
+    background-image: linear-gradient(aqua, gold);
     position:fixed;
 }
 .menu{
@@ -42,7 +41,7 @@ audio:hover {
     font-size: 24px;
 }
 .menu:hover{
-    color: rgb(0, 247, 255);
+    background-image: linear-gradient(aqua, gold);
     transform: scale(1.3);
 
 }

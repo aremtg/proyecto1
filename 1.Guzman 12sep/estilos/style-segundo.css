@@ -1,20 +1,101 @@
-.titulo1 {
-    margin-top: 1cm;
+
+/* INTRODUION A IMAGENES DE LOS PELUCHES */
+.congafas{
+    border-radius: 900px;
+}
+.intro {
+    margin-top: 4cm;
+    font-size:20px;
+    margin-left:25%;
     background-color: gold;
-    border-radius: 30px;
-    margin-inline-start: 790px;
-    margin-inline-end: 790px;
-    text-align: center;
+    border-radius: 50px;
+    width: max-content;
+}
+.intro img{
+
 }
 
-.titulo1:hover{
-    transform: scale(1.1);
+/* DIV DONDE ESTAN LAS CAJITAS PARA LOS PELUCHES GRUPO1 */
+.peluches1{
+    display: flex;
+    justify-content: center;
 }
 
-.parrafo{
-    text-align:center;
+.peluches1 img{
+    height: 400px;
 }
 
-.fotomapa{
-    width: 600px;
+/* CAJITAS PARA LOS PELUCHES GRUPO1*/
+.cajita1 {
+    height:max-content ;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+
 }
+.cajita2 {
+    height:max-content ;
+    background-color: gold;
+    border-radius: 50px;
+}
+.cajita3 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+.cajita4 {
+    height:max-content ;
+    background-color: gold;
+    border-radius: 50px;
+}
+.cajita5 {
+    height:max-content ;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+
+/* DIV DONDE ESTAN LAS CAJITAS PARA LOS PELUCHES GRUPO1 */
+.peluches2{
+    display: flex;
+    justify-content: center;
+}
+.peluches2 img{
+    height: 400px;
+}
+/* CAJITA PARA LOS PELUCHES GRUPO2 */
+.cajita6 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+.cajita7 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+}
+
+.cajita8 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+.cajita9 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    
+}
+.cajita10 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+
+
+
+

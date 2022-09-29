@@ -1,6 +1,6 @@
 
 .titulo1 {
-    margin-top: 1cm;
+    margin-top: 4cm;
     background-color: gold;
     border-radius: 30px;
     margin-inline-start: 790px;
@@ -12,21 +12,14 @@
     transform: scale(1.1);
 }
 /* IMAGENES */
-.fotoinicio {
-border-radius: 400px;
+.gif-en-intro{
+border-radius: 40px;
+width: 300px;
 }
 
-.amigos1 {
-    border-radius: 400px;
-    width: 350px;
-}
-.gato {
-    border-radius: 400px;
-    width: 350px;
-}
 /* CONTAINER ES EL BOTON CON PARRAFO info de ryan*/
 .container { 
-    background-color: white;
+    background-color:gold;
     border-radius: 60px;
 }
 .container p{
