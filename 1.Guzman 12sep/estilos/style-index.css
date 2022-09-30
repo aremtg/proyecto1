@@ -17,10 +17,31 @@ border-radius: 40px;
 width: 300px;
 }
 
+.conamigos{
+    width: min-content;
+    border-radius: 50px;
+    border-color: transparent;
+    
+}
+.conamigos img{
+    width: 450px;
+    border-radius: 50px;
+}
+
+.consugato {
+    width:min-content;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.consugato img{
+    width:auto;
+    border-radius: 50px;
+}
 /* CONTAINER ES EL BOTON CON PARRAFO info de ryan*/
 .container { 
     background-color:gold;
     border-radius: 60px;
+
 }
 .container p{
      text-align: left;   

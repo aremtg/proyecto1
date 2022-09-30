@@ -1,19 +1,19 @@
 
-/* INTRODUION A IMAGENES DE LOS PELUCHES */
-.congafas{
-    border-radius: 900px;
-}
+/* INTRODUION A IMAGENES DE LOS PELUCHES
+-intro es todo el espacio amarillo */
+
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
-    margin-top: 4cm;
+    width:48%;
     font-size:20px;
+    margin-top: 4cm;
     margin-left:25%;
+    margin-bottom: 25px;
     background-color: gold;
     border-radius: 50px;
-    margin-bottom: 25px;
+    
     
 }
 
@@ -25,11 +25,13 @@
 }
 
 
-.Ryan-img {
+.ryan-img {
     display: flex;
     justify-content: center;
 }
-
+.ryan-gif{
+    width: 350px;
+}
 .h2-2 {
     display: flex;
     justify-content: center;
@@ -81,7 +83,7 @@
     margin: 23px;
 }
 
-/* DIV DONDE ESTAN LAS CAJITAS PARA LOS PELUCHES GRUPO1 */
+/* DIV DONDE ESTAN LAS CAJITAS PARA LOS PELUCHES GRUPO2 */
 .peluches2{
     display: flex;
     justify-content: center;
@@ -121,6 +123,45 @@
     margin: 23px;
 }
 
+/* DIV DONDE ESTAN LAS CAJITAS PARA LOS PELUCHES GRUPO3 */
+.peluches3{
+    display: flex;
+    justify-content: center;
+}
+.peluches3 img{
+    height: 400px;
+}
+/* CAJITA PARA LOS PELUCHES GRUPO3 */
+.cajita11 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+.cajita12 {
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+}
+
+.cajita813{
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
+.cajita14{
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    
+}
+.cajita15{
+    height: max-content;
+    background-color: gold;
+    border-radius: 50px;
+    margin: 23px;
+}
 
 
 
